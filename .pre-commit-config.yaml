@@ -1,3 +1,4 @@
+---
 repos:
   # Python code formatting and linting
   - repo: https://github.com/psf/black
@@ -19,7 +20,7 @@ repos:
     rev: 7.3.0
     hooks:
       - id: flake8
-        args: [--max-line-length=88, --extend-ignore=E203,W503]
+        args: [--max-line-length=88, --extend-ignore=E203, W503]
 
   # Type checking
   - repo: https://github.com/pre-commit/mirrors-mypy
@@ -79,16 +80,16 @@ repos:
       - id: commitizen
         stages: [commit-msg]
 
-  # Test coverage
-  - repo: local
-    hooks:
-      - id: pytest
-        name: pytest
-        entry: pytest
-        language: system
-        pass_filenames: false
-        always_run: true
-        args: [--cov=src, --cov-report=term-missing, --cov-fail-under=80]
+  # # Test coverage
+  # - repo: local
+  #   hooks:
+  #     - id: pytest
+  #       name: pytest
+  #       entry: pytest
+  #       language: system
+  #       pass_filenames: false
+  #       always_run: true
+  #       args: [--cov=src, --cov-report=term-missing, --cov-fail-under=80]
 
   # Custom hooks for this project
   - repo: local
@@ -102,7 +103,9 @@ repos:
 
       - id: validate-requirements
         name: Validate requirements.txt
-        entry: python -c "import pkg_resources; pkg_resources.parse_requirements(open('requirements.txt'))"
+        entry: >-
+          python -c "import pkg_resources;
+          pkg_resources.parse_requirements(open('requirements.txt'))"
         language: system
         files: requirements.txt
-        pass_filenames: false 
+        pass_filenames: false

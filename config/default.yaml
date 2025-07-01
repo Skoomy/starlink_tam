@@ -1,0 +1,6 @@
+---
+satellites_total: 12000
+bandwidth_per_satellite_mbps: 17
+oversubscription_ratio: 20
+minimum_bandwidth_per_user_mbps: 20
+gdp_fraction_willingness_to_pay: 0.02

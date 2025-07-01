@@ -1,0 +1,25 @@
+---
+satellites_total:
+  distribution: uniform
+  min: 8000
+  max: 42000
+
+bandwidth_per_satellite_mbps:
+  distribution: normal
+  mean: 17
+  std: 3
+
+oversubscription_ratio:
+  distribution: lognormal
+  mean: 3.0     # log-space mean
+  sigma: 1.0    # log-space std
+
+minimum_bandwidth_per_user_mbps:
+  distribution: fixed
+  value: 20
+
+gdp_fraction_willingness_to_pay:
+  distribution: beta
+  alpha: 2
+  beta: 10
+  scale: 0.05   # scale beta(2,10) to max 5% of GDP
