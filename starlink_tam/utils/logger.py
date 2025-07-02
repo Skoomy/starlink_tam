@@ -1,5 +1,3 @@
-"""Professional logging configuration for Starlink TAM analysis."""
-
 import logging
 import sys
 from pathlib import Path
