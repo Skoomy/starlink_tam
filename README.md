@@ -4,9 +4,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-A **hedge fund quality** valuation platform for analyzing Starlink's Total Addressable Market (TAM) with comprehensive risk modeling, Monte Carlo simulation, and professional reporting.
+A  valuation platform for analyzing Starlink's Total Addressable Market (TAM) with comprehensive risk modeling, Monte Carlo simulation.
 
-## 🎯 Overview
+## Overview
 
 This platform provides sophisticated market sizing and valuation analysis for Starlink's satellite internet opportunity, combining:
 
@@ -237,7 +237,7 @@ All data models use Pydantic for:
 - Automatic documentation generation
 - JSON serialization/deserialization
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -263,20 +263,20 @@ flake8 starlink_tam/
 mypy starlink_tam/
 ```
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Inspired by ARK Invest's Starlink analysis methodology
 - Economic data sourced from World Bank, ITU, and Speedtest
 - Built with modern Python data science stack
 
-## 📞 Contact
+## Contact
 
 **Team Artometrix**
-- Email: team@artometrix.com
+- Email: contact@artometrix.com
 - Website: [artometrix.com](https://artometrix.com)
 
 ---
