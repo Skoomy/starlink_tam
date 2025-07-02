@@ -14,7 +14,6 @@ This platform provides sophisticated market sizing and valuation analysis for St
 - **Demand-side analysis**: Customer willingness to pay and market penetration
 - **Risk assessment**: Regulatory, competitive, and technological risk factors
 - **Monte Carlo simulation**: Uncertainty quantification and scenario analysis
-- **Professional reporting**: Interactive dashboards and detailed analytics
 
 ## 🏗️ Architecture
 
